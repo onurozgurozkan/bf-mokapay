@@ -4,13 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "moka/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "mokapay"
+  spec.name          = "bf-mokapay"
   spec.version       = Moka::VERSION
   spec.authors       = ["Bulutfon Geliştirme Ekibi"]
   spec.email         = ["dev@bulutfon.com"]
 
   spec.summary       = %q{Ruby gem for Moka payment system.}
-  #spec.description   = %q{}
   spec.homepage      = "https://github.com/onurozgurozkan/bf-mokapay"
   spec.license       = "MIT"
 
